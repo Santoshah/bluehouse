@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+
+
+body {
+	background-color:#fff;
+		margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+
+
+	}
+	
+	img { border:none;
+		}
+        
+        td img {display: block;}
+
+	td {vertical-align:top}
+    
+    @font-face {
+    font-family: "americantypewriter";
+    src: url('americantypewriter.eot');
+    src: url('americantypewriter.eot?#iefix') format('embedded-opentype'),
+         url('americantypewriter.woff') format('woff'),
+         url('americantypewriter.ttf') format('truetype'),
+         url('americantypewriter.svg#americantypewriter') format('svg');
+    font-style: normal;
+	font-weight:normal;
+
+}
+
+h1 { font-family:"americantypewriter", serif;
+font-size:37px;
+line-height:40px;
+	font-weight:normal !important;
+
+}
+
+h2 { font-family:"americantypewriter", serif;
+font-size:25px;
+line-height:33px;	font-weight:normal !important;
+
+}
+
+
+h3 { font-family:"americantypewriter", serif;
+font-size:22px;
+line-height:29px;
+display:inline;	font-weight:normal !important;
+
+}
+		
+#wrapper {
+	vertical-align:top;
+	width:950px;
+margin: 0px auto;
+margin-top: 0px !important;
+	padding: 0px;
+height:auto !important;
+overflow:hidden;
+	font-family: americantypewriter, Arial, sans-serif;
+	font-size: 18px;
+	line-height:26px;
+padding-bottom:0px;
+	background:url(/images/80.png);
+	background-repeat:repeat;
+    	overflow:hidden;
+        		color:#6D6E70;
+
+
+}
+
+
+.classlist {height:70px; width:200px; background:#047EBB; margin-bottom:20px; margin-left:20px; 
+        padding:20px; float:left;
+
+}
+
+
+.classbox {height:70px; width:70px; background:#047EBB; margin-bottom:20px; margin-right:20px;
+color:#fff; padding:15px; float:left;
+       
+
+}
+
+
+.nlbox {height:20px; width:140px; background:#fff; margin-bottom:10px; margin-right:10px;
+color:#fff; padding:20px; float:left; color:#ccc; font-size:12px; border: 1px solid #047EBB;
+       
+
+}
+
+
+.classlist:hover {
+	background:#6CCEF5;
+}
+
+.classbox:hover {
+	background:#6CCEF5;
+}
+
+.nlbox:hover {
+	background:#6CCEF5;
+}
+
+#logo{
+	width:403px;
+height:170px;
+margin-left:80px;
+float:left;
+	overflow:hidden;
+
+}
+
+#newsbox{
+	width:245px;
+height:400px;
+margin-left:0px;
+	background:#D9F0FC;
+	float:right;
+		overflow:hidden;
+        margin-top:50px;
+		padding-bottom:30px;
+        
+
+}
+
+#newsboxinside{
+	width:225px;
+		overflow:hidden;
+        font-size: 12px;
+        line-height:14px;
+        padding:10px;
+
+}
+
+
+#mast{
+	width:950px;
+height:220px;
+background:#fff;
+	overflow:hidden;
+
+}
+
+#login{
+font-family:"americantypewriter", serif;
+font-size:12px;
+	width:250px;
+height:121px;
+float:right;
+margin-right:80px;
+	overflow:hidden;
+    		color:#6D6E70;
+            padding-top:20px;
+
+
+}
+
+.login_textbox_small {
+width: 125px;
+border: 1px solid #ccc;
+}
+
+#container{
+	width:928px;
+	height:1090px;
+	background-color:#fff;
+	margin-top:0px;
+	border: 1px #E9E0D7 solid;
+	background:url(images/christine.jpg);
+	background-repeat:no-repeat;
+	padding-top:50px;
+padding-left:0px;
+padding-right:50px;
+padding-bottom:0px;
+	overflow:hidden;
+
+	
+}
+
+
+
+#navkj{
+	width:900px;
+	height:30px;
+		overflow:hidden;
+		padding-left:40px;
+		
+		padding-right:10px;
+        background:#fff;
+
+
+}
+
+#slidekj{
+	width:950px;
+	height:auto;
+	background:#fff;
+		overflow:hidden;
+
+}
+
+#mainpic{
+	width:950px;
+	height:auto;
+		overflow:hidden;
+		background:#fff;
+
+}
+
+#contentkj{
+	width:790px;
+	height:auto;
+    padding: 25px 80px 150px 80px;
+	background-image:url(/images/house.png);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+		overflow:hidden;
+	
+
+}
+
+#contentkjsec{
+	width:790px;
+	height:auto;
+    padding: 25px 80px 200px 80px;
+	background-image:url(/images/house.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+		overflow:hidden;
+	
+
+}
+
+
+#contentkjleft{
+	<!--width:515px;-->
+		width:790px;
+
+	height:auto;
+    padding: 0pc;
+	float:left;
+		overflow:hidden;
+		color:#6D6E70;
+
+}
+
+
+#contentkjlefthome{
+	width:515px;
+
+	height:auto;
+    padding: 0pc;
+	float:left;
+		overflow:hidden;
+		color:#6D6E70;
+
+}
+
+#footer{
+	width:950px;
+	height:40px;
+	background:#6CCEF5;
+    padding: 0;
+		overflow:hidden;
+        color:#fff;
+        font-size:10px;
+		text-align:center;
+		display:table;        
+
+}
+
+#footer p{ display: table-cell;
+ vertical-align:middle;
+text-align:center;}
+
+
+
+
+
+#topline{
+	width:100%;
+height:10px;
+overflow:hidden;
+background-color:#00D097;
+margin-bottom:10px;
+}
+
+table.classeskj { border: 0px solid #ccc; border-collapse:collapse; background:#fff}
+
+td.classeskj { width:25%; border: 1px solid #ccc; text-align:center; border-collapse:collapse;padding:20px;}
+
+table.classeskj2 { border: 0px solid #ccc; border-collapse:collapse;background:#fff}
+
+td.classeskj2 { width:16%; border: 1px solid #ccc; text-align:center; border-collapse:collapse;padding:20px;}
+
+
+
+a:link {
+	text-decoration: none;
+	color: #5CA8DC;
+}
+
+
+a:visited {
+	text-decoration: none;
+	color: #5CA8DC;
+}
+a:active {
+text-decoration: none;
+	color: #5CA8DC;}
+a:hover {
+	text-decoration: underline;
+	color: #5CA8DC;
+}
+
+#logbut { width:125px; height:30px; overflow:hidden; border:1px solid #6ccef5; background:#fff; color:#6ccef5; text-align:center; line-height:30px; float:right; margin-top:88px;}
+
+
+#logbut a:link {
+	text-decoration: none;color:#666;
+}
+
+#logbut a:visited {
+	text-decoration: none;color:#666;
+}
+
+#logbut a:active {
+	text-decoration: none;color:#666;
+}
+
+#logbut a:hover {
+	text-decoration: none !important;
+	color:#fff !important;
+}
+
+#logbut:hover {
+		color:#fff !important;
+	background:#6ccef5;
+		text-decoration: none !important;
+
+} 
+
+
+
+
+
+.applybut { width:200px; height:50px;  border:1px solid #6ccef5; background:#fff; color:#6ccef5; text-align:center; line-height:50px; float:left; margin-left:0px; overflow:hidden;}
+
+
+
+.applybut a:link {
+	text-decoration: none;color:#666;
+}
+
+.applybut a:visited {
+	text-decoration: none;color:#666;
+}
+
+.applybut a:active {
+	text-decoration: none;color:#666;
+}
+
+.applybut a:hover {
+	text-decoration: none !important;
+	color:#fff !important;
+}
+
+.applybut:hover {
+		color:#fff !important;
+	background:#6ccef5;
+		text-decoration: none !important;
+
+} 
+
+
+.design1{
+ font-family: "americantypewriter";
+ font-size:12px;
+background:#6CCEF5;;
+color:#fff !important;
+text-transform:uppercase;
+border:0px solid #dbdbdb;
+ 
+padding:3px 10px;
+cursor:pointer;
+margin-top:0px;
+} 
+
+.design1:hover {background:#0091B1}
+
+.clearfloat {height:1px; clear:both;}
+
+.staffout {height: 300px; width:240px; overflow:hidden; float:left; background-image:url(/images/staffbg.jpg); background-repeat:no-repeat;}
+
+.staffin {height: 215px; width:165px; background:#fff; margin-top:27px; margin-left:32px; overflow:hidden;}
+
+.staffname {width:165px; margin-left:32px; text-align:center; margin-top:3px;}
+
+.staffcontent {float:right; width:530px} 
